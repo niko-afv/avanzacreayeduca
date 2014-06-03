@@ -1,0 +1,249 @@
+a{
+    border: 0;
+    outline: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    clear: both;
+}
+#main-wrapper{                
+    height: auto;
+    width: 100%;
+}
+#main-content{
+    font-family: helvetica;
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 960px;
+}
+.error{
+    color: #b12828;
+    display: none;
+    float: left;
+    margin-top: 15px;
+    text-align: center;
+    width: 290px;
+}
+.hidden{
+    display: none;
+}
+#first-page{
+    float: left;
+    width: 100%;
+}
+#first-page #top{
+    float: left;
+    height: auto;
+    width: 100%;
+}
+#first-page #top #logo{
+    float: left;
+    font-size: 25px;
+    line-height: 25px;
+    margin-left: 50px;
+    width: 100px;
+}
+#first-page #top #logo a{
+    text-decoration: none;
+}
+#first-page #top #logo span{
+    display: block;
+}
+.azul{
+    color: #00b0f0;
+}
+.lila{
+    color: #7030a0;
+}
+.verde{
+    color: #009900;
+}
+#first-page #left{
+    float: left;
+    width: 360px;
+}
+#first-page #left figure{
+    float: right;
+    height: 374px;
+    margin-bottom: 0;
+}
+#first-page #right{
+    float: left;
+    width: 600px;
+}
+#first-page #contacto{
+    float: right;
+    width: 132px;
+}
+#first-page #contacto a{
+    background: url(../img/contactenos.png) no-repeat 0 0 transparent;
+    border: 0;
+    display: block;
+    height: 83px;
+    width: 100%;
+}
+#first-page #right #texto-campagna{
+    background: url(../img/texto-campagna.png) no-repeat 0 0 transparent;
+    float: left;
+    height: 115px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+#first-page #right #texto-candidata{
+    background: url(../img/texto-candidata.png) no-repeat 0 0 transparent;
+    float: left;
+    height: 115px;
+    width: 100%;
+}
+#first-page #bottom{
+    float: left;
+    height: 140px;
+    position: relative;
+    width: 450px;
+}
+#first-page #bottom a{
+    color: #777777;
+    display: inline-block;
+    text-decoration: none;
+}
+#first-page #bottom a.gallery{
+    border: 1px solid;
+    padding: 10px;
+    position: absolute;
+}
+#second-page{
+    float: left;
+    width: 100%;
+}
+#second-page #botonera{
+    margin: 40px auto;
+    width: 760px;
+}
+#second-page #botonera a.link{
+    background: url(../img/bckg-brn.jpg) no-repeat 0 0 transparent;
+    border: 0;
+    color: #01AFED;
+    display: block;                
+    float: left;
+    height: 64px;
+    margin-right: 15px;
+    line-height: 20px;                
+    padding-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    width: 235px;
+}
+#second-page #botonera a.link:hover{
+    color: #FE0000;
+}
+#second-page #botonera a.link span{
+    display: block;
+    line-height: 25px;
+    margin: 0 auto;
+    width: 200px;
+}
+.shadow{
+    background: url(../img/shadow-x.jpg) no-repeat 0 0 transparent;
+    float: left;
+    height: 21px;
+    margin: 0 auto;
+    width: 960px;
+}
+.social-item{
+    float: left;
+    list-style: none;
+    width: 50px;
+}
+.social-item a img{
+    width: 40px;
+    height: 40px;
+}
+.social-item a img#tiwtter{
+    width: 60px;
+    height: auto;
+}
+#social-list{
+    bottom: 0;
+    margin: 0;
+    position: absolute;
+    right: 0;
+}
+.success{
+    color: #328e52;
+    display: none;
+    float: left;
+    margin-top: 15px;
+    text-align: center;
+    width: 290px;
+}
+#third-page{
+    background: #f4f4f4;
+    float: left;
+    width: 100%;
+}
+#third-page form{
+    color: #999999;
+    height: 250px;
+    margin: 50px auto;
+    width: 630px;
+}
+#third-page form input[type='submit']{
+    background: url(../img/btn-enviar.png) no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    border-radius: 15px;
+    cursor: pointer;
+    float: right;
+    height: 30px;
+    margin:20px 10px 0 0;
+    width: 111px;
+
+    transition: all 0.2s linear;
+}
+#third-page form input[type='submit']:hover{
+    margin: 18px 8px 0 0;
+    box-shadow: -5px 2px 10px 0;
+}
+#third-page form .input{
+    float: left;
+    margin-right: 20px;
+    width: 290px;
+}
+#third-page form .textarea{
+    float: left;
+    width: 320px;
+}
+#third-page form .item{
+    font-size: 14px;
+    float: left;
+    height: 37px;                
+    width: 290px;
+}
+#third-page form .input .item label{
+    display: inline-block;
+    margin-right: 5px;
+    width: 52px;
+}
+#third-page form .input .item input{
+    background: url(../img/input.jpg) no-repeat 0 0 transparent;
+    border: 0;
+    color: #999999;
+    height: 30px;
+    text-indent: 5px;
+    vertical-align: sub;
+    width: 220px;
+}
+#third-page form .textarea textarea{
+    background: url(../img/textarea.jpg) no-repeat 0 0 transparent;
+    border: 0;
+    color: #999999;
+    height: 96px;
+    min-height: 96px;
+    min-width: 246px;
+    padding: 5px 0 0 2px;
+    vertical-align: top;
+    width: 246px;
+
+}
